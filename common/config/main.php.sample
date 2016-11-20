@@ -7,8 +7,7 @@ return [
         ],
         'mongodb' => [
             'class' => '\yii\mongodb\Connection',
-            'dsn' => 'mongodb://127.0.0.1/DB_MONGO_NAME', // local
-            // 'dsn' => 'mongodb://DB_MONGO_USERNAME:DB_MONGO_PASSWORD@DB_MONGO_HOST/DB_MONGO_NAME, // remote
+            // 'dsn' => 'mongodb://DB_MONGO_USERNAME:DB_MONGO_PASSWORD@DB_MONGO_HOST/DB_MONGO_NAME,
         ],
     ],
 ];
