@@ -2,7 +2,7 @@
 /yii
 
 # common
-common/config/main.php
+/common/config/main.php
 
 # phpstorm project files
 .idea
