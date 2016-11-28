@@ -54,7 +54,7 @@ return [
                 // change key not value
                 'posts' => '/post',
                 'post/<slug>' => '/post/single',
-                'category/<slug>' => '/post/category',
+                'category/<slug>' => '/post/category', // posts related to a specific category
             ]
         ],
     ],
