@@ -51,6 +51,8 @@ return [
             'used_languages' => ['en', 'ar'], // list of languages used
             'default_language' => 'en', // default language
             'listing_size' => 10, // default size of listing page
+            'rules' => [ // setup rules for backend routes
+            ]
         ]
     ],
     'params' => $params,
