@@ -4,6 +4,9 @@
 # common
 /common/config/main.php
 
+# frontend
+/frontend/web/uploads
+
 # phpstorm project files
 .idea
 
