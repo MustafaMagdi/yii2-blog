@@ -45,10 +45,17 @@ return [
     ],
     'modules' => [
         'blog' => [
+            'id' => 'blog',
             'class' => devmustafa\blog\modules\frontend\Module::className(),
             'used_languages' => ['en', 'ar'], // list of languages used
             'default_language' => 'en', // default language
             'listing_size' => 10, // default size of listing page
+            'rules' => [ // setup rules for frontend routes
+                // change key not value
+                'posts' => '/post',
+                'post/<slug>' => '/post/single',
+                'category/<slug>' => '/post/category', // posts related to a specific category
+            ]
         ],
     ],
     'params' => $params,
