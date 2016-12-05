@@ -19,7 +19,8 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "devmustafa/yii2-blog-mongodb": "^1.0",
-        "zxbodya/yii2-tinymce": "*@dev"
+        "zxbodya/yii2-tinymce": "*@dev",
+        "zxbodya/yii2-elfinder": "*@dev"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
