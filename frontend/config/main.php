@@ -45,7 +45,7 @@ return [
     ],
     'modules' => [
         'blog' => [
-            'id' => 'blog',
+            'id' => 'blog', // used in routing
             'class' => devmustafa\blog\modules\frontend\Module::className(),
             'used_languages' => ['en', 'ar'], // list of languages used
             'default_language' => 'en', // default language
