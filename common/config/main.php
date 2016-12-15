@@ -7,7 +7,7 @@ return [
         ],
         'mongodb' => [
             'class' => '\yii\mongodb\Connection',
-            'dsn' => 'mongodb://mongo:321@192.168.5.150/blog',
+            'dsn' => 'mongodb://mongo:321@192.168.0.163/blog',
         ],
     ],
 ];

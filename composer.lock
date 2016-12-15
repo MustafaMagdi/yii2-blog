@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f82c81b998a1a47efc70ecac753880b0",
-    "content-hash": "f39cc753e1b61d22e913403e151e06d8",
+    "hash": "4338583a2edbba4c06cacf06c5624284",
+    "content-hash": "2297403bea064caa0196c6baf1f93cac",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -86,31 +86,6 @@
                 "jquery",
                 "library"
             ]
-        },
-        {
-            "name": "bower-asset/jquery-ui",
-            "version": "1.11.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jqueryui.git",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.6"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "jquery-ui.js"
-                ],
-                "bower-asset-ignore": []
-            }
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -784,56 +759,6 @@
             "time": "2016-11-03 19:28:39"
         },
         {
-            "name": "yiisoft/yii2-jui",
-            "version": "2.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "843a2160cfe30f5c8b0cb2e9dbd8ee6bcf97e71d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/843a2160cfe30f5c8b0cb2e9dbd8ee6bcf97e71d",
-                "reference": "843a2160cfe30f5c8b0cb2e9dbd8ee6bcf97e71d",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery-ui": "1.11.*@stable",
-                "yiisoft/yii2": ">=2.0.4"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                },
-                "asset-installer-paths": {
-                    "npm-asset-library": "vendor/npm",
-                    "bower-asset-library": "vendor/bower"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\jui\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
-                }
-            ],
-            "description": "The Jquery UI extension for the Yii framework",
-            "keywords": [
-                "jQuery UI",
-                "yii2"
-            ],
-            "time": "2016-07-22 22:26:59"
-        },
-        {
             "name": "yiisoft/yii2-mongodb",
             "version": "2.1.2",
             "source": {
@@ -930,99 +855,6 @@
                 "yii2"
             ],
             "time": "2016-09-09 11:48:11"
-        },
-        {
-            "name": "zxbodya/yii2-elfinder",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zxbodya/yii2-elfinder.git",
-                "reference": "1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zxbodya/yii2-elfinder/zipball/1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89",
-                "reference": "1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-jui": "*"
-            },
-            "suggest": {
-                "zxbodya/yii2-tinymce": "Extension with TinyMce WYSIWYG editor, that can be used with elFinder"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "zxbodya\\yii2\\elfinder\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bogdan Savluk",
-                    "email": "savluk.bogdan@gmail.com"
-                }
-            ],
-            "description": "Extension to use elFinder 1.x file manager in Yii2 application",
-            "keywords": [
-                "elfinder",
-                "extension",
-                "file manager",
-                "tinymce",
-                "widget",
-                "yii2"
-            ],
-            "time": "2014-10-07 19:20:45"
-        },
-        {
-            "name": "zxbodya/yii2-tinymce",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zxbodya/yii2-tinymce.git",
-                "reference": "0c1dfeb16ba421bd2d2e8e6b8540788b1af3efce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zxbodya/yii2-tinymce/zipball/0c1dfeb16ba421bd2d2e8e6b8540788b1af3efce",
-                "reference": "0c1dfeb16ba421bd2d2e8e6b8540788b1af3efce",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "suggest": {
-                "zxbodya/yii2-elfinder": "To add elFinder file manager"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "zxbodya\\yii2\\tinymce\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bogdan Savluk",
-                    "email": "savluk.bogdan@gmail.com"
-                }
-            ],
-            "description": "Yii2 extension to use TinyMce with Compressor and FileManager",
-            "keywords": [
-                "extension",
-                "tinymce",
-                "wysiwyg",
-                "yii2"
-            ],
-            "time": "2015-11-29 16:06:03"
         }
     ],
     "packages-dev": [
@@ -1335,10 +1167,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "zxbodya/yii2-tinymce": 20,
-        "zxbodya/yii2-elfinder": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
