@@ -11,7 +11,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
-//    'catchAll' => ['site/maintenance'],
+//    'catchAll' => ['site/maintenance'], // uncomment this line to show maintenance page
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
