@@ -12,6 +12,7 @@ Note that the project under development, and the following features we are going
 * Add frontend. :+1:
 * Provide documentation. :+1:
 * Configurable attributes. :+1:
+* Make initial DB.
 * Explain how to extend the module and add your custom blog attributes.
 
 ##### for version 2.0.0:
