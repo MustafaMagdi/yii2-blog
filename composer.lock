@@ -338,20 +338,23 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.8.0",
+            "version": "v4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
+                "reference": "de82f9845f2a0f9f27abec67d6a4958427e6f5d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/de82f9845f2a0f9f27abec67d6a4958427e6f5d6",
+                "reference": "de82f9845f2a0f9f27abec67d6a4958427e6f5d6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -378,7 +381,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2016-07-16 12:58:58"
+            "time": "2017-03-08 08:22:36"
         },
         {
             "name": "imagine/imagine",
@@ -497,12 +500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "55aef2ed39c7d04043e969b6d935f07df9c54aa4"
+                "reference": "2b429f5a9459235a7fe024bbb4e856255e1c3c59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/55aef2ed39c7d04043e969b6d935f07df9c54aa4",
-                "reference": "55aef2ed39c7d04043e969b6d935f07df9c54aa4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2b429f5a9459235a7fe024bbb4e856255e1c3c59",
+                "reference": "2b429f5a9459235a7fe024bbb4e856255e1c3c59",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +592,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-03-07 07:15:28"
+            "time": "2017-03-08 23:52:36"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
